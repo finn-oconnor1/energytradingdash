@@ -273,5 +273,6 @@ def update_simulation(buy_thresh, sell_thresh, position_pct):
     return price_fig, pnl_fig, stats_cards, csv_href
 
 # ========== Run ==========
+server = app.server
 if __name__ == '__main__':
     app.run(debug=True)
